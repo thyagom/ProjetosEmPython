@@ -27,5 +27,6 @@ class DecidaPorMim:
 
             if self.eventos == 'Decida por mim':
                 print(random.choice(self.respostas))
+                self.janela.close()
 decida = DecidaPorMim()
 decida.Iniciar()
