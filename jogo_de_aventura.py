@@ -23,7 +23,7 @@ class JogoDeAventura:
         self.janela = sg.Window('Jogo de Aventura!',layout=layout)
         while True:
 
-            self.LerValores()
+            self.LerValores()1
 
             if self.eventos == 'Iniciar':
                 print(self.pergunta1)
